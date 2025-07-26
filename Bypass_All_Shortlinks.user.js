@@ -1648,7 +1648,7 @@
     /set.seturl.in/.test(url) ? afterDOMLoaded(function() {redirectIfNotDisabled('a.get-link')}) : null;
 
     // seturl.in used by animedekho.in
-    /psccapk.in|secure.bgmiupdate.com.in|money.hustlershub.in|rg.sattakingcharts.in|payalgaming.co.in/.test(url) ? afterDOMLoaded(function() {
+    /psccapk.in|hotel.railwayvacanc2024.com|loan.vacancyint.in|secure.bgmiupdate.com.in|money.hustlershub.in|rg.sattakingcharts.in|payalgaming.co.in/.test(url) ? afterDOMLoaded(function() {
         window.count = 0;
         clickIfExists('#tp-snp2');
         clickIfExists('#cross-snp2');
