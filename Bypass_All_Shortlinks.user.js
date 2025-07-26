@@ -2915,7 +2915,7 @@
 
     // vplink - https://codeberg.org/Amm0ni4/bypass-all-shortlinks-debloated/issues/271
     // make a regex for this bypass to run on these domains: kaomojihub.com,wastenews.xyz,myscheme.org.in,aiperceiver.com,electricalguider.com,mpsarkarihelp.in
-    /(kaomojihub\.com|udnews\.in)/.test(url) ? afterDOMLoaded(function() {
+    /(kaomojihub\.com|udnews\.net)/.test(url) ? afterDOMLoaded(function() {
         clickIfExists('#notarobot');
         clickIfExists('#btn7');
     }) : null;
