@@ -2912,10 +2912,10 @@
         modifyScript('document.getElementById("secretsecret").remove();', '');
         alert('Adblock status: ' + window.adblockstatus); */
     })() : null;
-
+    
     // vplink - https://codeberg.org/Amm0ni4/bypass-all-shortlinks-debloated/issues/271
     // make a regex for this bypass to run on these domains: kaomojihub.com,wastenews.xyz,myscheme.org.in,aiperceiver.com,electricalguider.com,mpsarkarihelp.in
-    /(udnew\.net|kaomojihub\.com)/.test(url) ? afterDOMLoaded(function() {
+    /(udnews\.net|kaomojihub\.com)/.test(url) ? afterDOMLoaded(function() {
         clickIfExists('#notarobot');
         clickIfExists('#btn7');
     }) : null;
